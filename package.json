@@ -1,5 +1,5 @@
 {
-  "name": "validador-id-ec",
+  "name": "validador-id-ec-ntellon",
   "version": "1.0.1",
   "description": "Validador de números de identidad en Ecuador",
   "main": "src/index.js",
@@ -17,6 +17,7 @@
     "node": ">=16.0.0"
   },
   "dependencies": {
-    "validador-id-ec": "file:"
+    "validador-id-ec": "file:",
+    "validador-id-ec-ntellon": "file:"
   }
 }
