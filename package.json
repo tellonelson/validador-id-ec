@@ -1,0 +1,19 @@
+{
+  "name": "validador-id-ec",
+  "version": "1.0.1",
+  "description": "Validador de números de identidad en Ecuador",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Gabriel Villacis",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^11.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
