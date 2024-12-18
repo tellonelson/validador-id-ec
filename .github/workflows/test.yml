@@ -1,0 +1,26 @@
+name: Ejecucion de Unit Tests
+
+on:
+  push:
+    branches:
+      - "**"
+
+jobs:
+  test:
+    name: Ejecutar Unit Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Ckeckout del repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar NodeJS
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Instalar dependencias
+        run: npm install
+
+      - name: Ejecutar los tests
+        run: npm test
